@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenStar Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="site-header">
+    <div class="container">
+      <img src="logo-placeholder.svg" alt="GreenStar Club Logo" class="logo">
+    </div>
+  </header>
+
+  <!-- О клубе (первая секция) -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>О клубе</h2>
+      <p>
+        GreenStar Club — это пространство, где ценители культуры каннабиса могут свободно общаться,
+        делиться опытом и участвовать в мероприятиях, соответствующих законодательству.
+        Наш клуб объединяет людей с общими интересами в безопасной и дружественной среде.
+      </p>
+    </div>
+  </section>
+
+  <!-- Контакты и карта -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Контакты</h2>
+      <p>📍 Адрес: 1234 Example Street, Вашингтон, США</p>
+      <p>📞 Телефон: +1 555-123-4567</p>
+      <p>✉️ Email: info@greenstarcsc.com</p>
+      <div class="map">
+        <!-- Вставьте embed карту, например Google Maps iframe -->
+        <iframe
+          src="https://www.google.com/maps/embed?..."
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Дополнительная информация о клубе -->
+  <section id="more-info" class="section more-info">
+    <div class="container">
+      <h2>Больше о нас</h2>
+      <p>
+        Мы проводим регулярные встречи, семинары и совместные просмотры фильмов. GreenStar Club — это некоммерческая
+        организация, существующая благодаря поддержке и участию членов клуба.
+      </p>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 GreenStar Club. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>
